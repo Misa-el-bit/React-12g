@@ -1,13 +1,27 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.semaforo{
+  width:100px;
+  height:100px;
+  display: flex;
+  justify-content:center;
+  align-items:center;
+  border: 2px solid peru
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.semaforo .luz{
+  width:75px;
+  height:75px;
+  border-radius:100%;
+  background-color:#ddd;
+}
+
+.siga{
+  background-color: green !important
+}
+
+.precaución{
+  background-color: yellow !important
+}
+
+.alto{
+  background-color: red !important
 }
